@@ -1,0 +1,23 @@
+# Traffic data containing information on traffic volume, road capacity, and congestion
+# Format: road_segment, traffic_volume, road_capacity, congestion_level
+
+Downtown-Central Park, 80, 100, Low
+Central Park-University Avenue, 100, 120, Medium
+University Avenue-Riverside, 50, 80, High
+Downtown-Riverside, 90, 100, Low
+Downtown-Broadway, 120, 150, High
+Broadway-Museum Street, 70, 90, Low
+Museum Street-City Hall, 60, 80, Low
+Central Park-City Hall, 90, 100, Medium
+University Avenue-Central Station, 80, 90, High
+Riverside-North Avenue, 100, 120, Medium
+Broadway-Park Street, 110, 130, High
+Park Street-Lakeside, 70, 90, Low
+City Hall-Airport Road, 50, 70, High
+Central Station-Business District, 70, 90, Medium
+Museum Street-Lakeside, 90, 110, Low
+North Avenue-Business District, 120, 140, High
+Business District-Highway Junction, 100, 120, High
+Park Street-Industrial Zone, 80, 100, Medium
+Lakeside-Suburban Area, 60, 80, Low
+Suburban Area-Residential Zone, 50, 70, Low

@@ -1,0 +1,20 @@
+
+Displaying Traffic Network Graph as Adjacent List
+
+Downtown => Central Park, Riverside, Broadway, 
+Central Park => Downtown, University Avenue, City Hall, 
+University Avenue => Central Park, Riverside, Central Station, 
+Riverside => Downtown, University Avenue, North Avenue, 
+Broadway => Downtown, Museum Street, Park Street, 
+Museum Street => Broadway, City Hall, Lakeside, 
+City Hall => Central Park, Museum Street, Airport Road, 
+Central Station => University Avenue, Business District, 
+North Avenue => Riverside, Business District, 
+Park Street => Broadway, Lakeside, Industrial Zone, 
+Lakeside => Museum Street, Park Street, Suburban Area, 
+Airport Road => City Hall, 
+Business District => Central Station, North Avenue, Highway Junction, 
+Highway Junction => Business District, 
+Industrial Zone => Park Street, 
+Suburban Area => Lakeside, Residential Zone, 
+Residential Zone => Suburban Area, 

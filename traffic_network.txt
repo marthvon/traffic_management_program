@@ -1,0 +1,23 @@
+# Road network data representing road connections and distances
+# Format: start_location, end_location, distance (in miles)
+
+Downtown, Central Park, 3
+Central Park, University Avenue, 4
+University Avenue, Riverside, 2
+Downtown, Riverside, 6
+Downtown, Broadway, 5
+Broadway, Museum Street, 3
+Museum Street, City Hall, 2
+Central Park, City Hall, 5
+University Avenue, Central Station, 4
+Riverside, North Avenue, 3
+Broadway, Park Street, 4
+Park Street, Lakeside, 5
+City Hall, Airport Road, 7
+Central Station, Business District, 3
+Museum Street, Lakeside, 4
+North Avenue, Business District, 6
+Business District, Highway Junction, 4
+Park Street, Industrial Zone, 5
+Lakeside, Suburban Area, 3
+Suburban Area, Residential Zone, 4

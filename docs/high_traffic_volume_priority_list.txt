@@ -1,0 +1,123 @@
+
+Displaying Traffic Network Prioritised Intersection Based on Traffic Volume
+
+Downtown-Broadway: {
+	distance: 5.0 miles,
+	traffic volume: 120.0,
+	road capacity: 150.0,
+	congestion level: High
+}
+North Avenue-Business District: {
+	distance: 6.0 miles,
+	traffic volume: 120.0,
+	road capacity: 140.0,
+	congestion level: High
+}
+Broadway-Park Street: {
+	distance: 4.0 miles,
+	traffic volume: 110.0,
+	road capacity: 130.0,
+	congestion level: High
+}
+Business District-Highway Junction: {
+	distance: 4.0 miles,
+	traffic volume: 100.0,
+	road capacity: 120.0,
+	congestion level: High
+}
+Central Park-University Avenue: {
+	distance: 4.0 miles,
+	traffic volume: 100.0,
+	road capacity: 120.0,
+	congestion level: Medium
+}
+Riverside-North Avenue: {
+	distance: 3.0 miles,
+	traffic volume: 100.0,
+	road capacity: 120.0,
+	congestion level: Medium
+}
+Central Park-City Hall: {
+	distance: 5.0 miles,
+	traffic volume: 90.0,
+	road capacity: 100.0,
+	congestion level: Medium
+}
+Downtown-Riverside: {
+	distance: 6.0 miles,
+	traffic volume: 90.0,
+	road capacity: 100.0,
+	congestion level: Low
+}
+Museum Street-Lakeside: {
+	distance: 4.0 miles,
+	traffic volume: 90.0,
+	road capacity: 110.0,
+	congestion level: Low
+}
+Downtown-Central Park: {
+	distance: 3.0 miles,
+	traffic volume: 80.0,
+	road capacity: 100.0,
+	congestion level: Low
+}
+University Avenue-Central Station: {
+	distance: 4.0 miles,
+	traffic volume: 80.0,
+	road capacity: 90.0,
+	congestion level: High
+}
+Park Street-Industrial Zone: {
+	distance: 5.0 miles,
+	traffic volume: 80.0,
+	road capacity: 100.0,
+	congestion level: Medium
+}
+Central Station-Business District: {
+	distance: 3.0 miles,
+	traffic volume: 70.0,
+	road capacity: 90.0,
+	congestion level: Medium
+}
+Park Street-Lakeside: {
+	distance: 5.0 miles,
+	traffic volume: 70.0,
+	road capacity: 90.0,
+	congestion level: Low
+}
+Broadway-Museum Street: {
+	distance: 3.0 miles,
+	traffic volume: 70.0,
+	road capacity: 90.0,
+	congestion level: Low
+}
+Museum Street-City Hall: {
+	distance: 2.0 miles,
+	traffic volume: 60.0,
+	road capacity: 80.0,
+	congestion level: Low
+}
+Lakeside-Suburban Area: {
+	distance: 3.0 miles,
+	traffic volume: 60.0,
+	road capacity: 80.0,
+	congestion level: Low
+}
+City Hall-Airport Road: {
+	distance: 7.0 miles,
+	traffic volume: 50.0,
+	road capacity: 70.0,
+	congestion level: High
+}
+University Avenue-Riverside: {
+	distance: 2.0 miles,
+	traffic volume: 50.0,
+	road capacity: 80.0,
+	congestion level: High
+}
+Suburban Area-Residential Zone: {
+	distance: 4.0 miles,
+	traffic volume: 50.0,
+	road capacity: 70.0,
+	congestion level: Low
+}

@@ -1,0 +1,308 @@
+4,5c4,5
+< [Downtown-Central Park, Central Park-City Hall, Museum Street-City Hall, Broadway-Museum Street]
+< [Downtown-Central Park, Central Park-City Hall, Museum Street-City Hall]
+---
+> [Downtown-Broadway]
+> [Downtown-Broadway, Broadway-Museum Street]
+9,10c9,10
+< [Downtown-Central Park, Central Park-City Hall, Museum Street-City Hall, Museum Street-Lakeside, Park Street-Lakeside]
+< [Downtown-Central Park, Central Park-City Hall, Museum Street-City Hall, Museum Street-Lakeside]
+---
+> [Downtown-Broadway, Broadway-Park Street]
+> [Downtown-Broadway, Broadway-Museum Street, Museum Street-Lakeside]
+14,16c14,16
+< [Downtown-Central Park, Central Park-City Hall, Museum Street-City Hall, Museum Street-Lakeside, Park Street-Lakeside, Park Street-Industrial Zone]
+< [Downtown-Central Park, Central Park-City Hall, Museum Street-City Hall, Museum Street-Lakeside, Lakeside-Suburban Area]
+< [Downtown-Central Park, Central Park-City Hall, Museum Street-City Hall, Museum Street-Lakeside, Lakeside-Suburban Area, Suburban Area-Residential Zone]
+---
+> [Downtown-Broadway, Broadway-Park Street, Park Street-Industrial Zone]
+> [Downtown-Broadway, Broadway-Museum Street, Museum Street-Lakeside, Lakeside-Suburban Area]
+> [Downtown-Broadway, Broadway-Museum Street, Museum Street-Lakeside, Lakeside-Suburban Area, Suburban Area-Residential Zone]
+19,20c19,20
+< [Downtown-Central Park, Downtown-Riverside]
+< [Central Park-City Hall, Museum Street-City Hall, Broadway-Museum Street]
+---
+> [Central Park-University Avenue, University Avenue-Riverside]
+> [Downtown-Central Park, Downtown-Broadway]
+24,25c24,25
+< [Downtown-Central Park, Downtown-Riverside, Riverside-North Avenue]
+< [Central Park-City Hall, Museum Street-City Hall, Museum Street-Lakeside, Park Street-Lakeside]
+---
+> [Central Park-University Avenue, University Avenue-Riverside, Riverside-North Avenue]
+> [Downtown-Central Park, Downtown-Broadway, Broadway-Park Street]
+30c30
+< [Central Park-City Hall, Museum Street-City Hall, Museum Street-Lakeside, Park Street-Lakeside, Park Street-Industrial Zone]
+---
+> [Downtown-Central Park, Downtown-Broadway, Broadway-Park Street, Park Street-Industrial Zone]
+36c36
+< [Central Park-University Avenue, Central Park-City Hall, Museum Street-City Hall, Broadway-Museum Street]
+---
+> [Central Park-University Avenue, Downtown-Central Park, Downtown-Broadway]
+41c41
+< [Central Park-University Avenue, Central Park-City Hall, Museum Street-City Hall, Museum Street-Lakeside, Park Street-Lakeside]
+---
+> [Central Park-University Avenue, Downtown-Central Park, Downtown-Broadway, Broadway-Park Street]
+46c46
+< [Central Park-University Avenue, Central Park-City Hall, Museum Street-City Hall, Museum Street-Lakeside, Park Street-Lakeside, Park Street-Industrial Zone]
+---
+> [Central Park-University Avenue, Downtown-Central Park, Downtown-Broadway, Broadway-Park Street, Park Street-Industrial Zone]
+50c50
+< [Downtown-Riverside, Downtown-Central Park]
+---
+> [University Avenue-Riverside, Central Park-University Avenue]
+52,54c52,54
+< [Downtown-Riverside, Downtown-Central Park, Central Park-City Hall, Museum Street-City Hall, Broadway-Museum Street]
+< [Downtown-Riverside, Downtown-Central Park, Central Park-City Hall, Museum Street-City Hall]
+< [Downtown-Riverside, Downtown-Central Park, Central Park-City Hall]
+---
+> [Downtown-Riverside, Downtown-Broadway]
+> [University Avenue-Riverside, Central Park-University Avenue, Central Park-City Hall, Museum Street-City Hall]
+> [University Avenue-Riverside, Central Park-University Avenue, Central Park-City Hall]
+57,68c57,68
+< [Downtown-Riverside, Downtown-Central Park, Central Park-City Hall, Museum Street-City Hall, Museum Street-Lakeside, Park Street-Lakeside]
+< [Downtown-Riverside, Downtown-Central Park, Central Park-City Hall, Museum Street-City Hall, Museum Street-Lakeside]
+< [Downtown-Riverside, Downtown-Central Park, Central Park-City Hall, City Hall-Airport Road]
+< [University Avenue-Riverside, University Avenue-Central Station, Central Station-Business District]
+< [University Avenue-Riverside, University Avenue-Central Station, Central Station-Business District, Business District-Highway Junction]
+< [Downtown-Riverside, Downtown-Central Park, Central Park-City Hall, Museum Street-City Hall, Museum Street-Lakeside, Park Street-Lakeside, Park Street-Industrial Zone]
+< [Downtown-Riverside, Downtown-Central Park, Central Park-City Hall, Museum Street-City Hall, Museum Street-Lakeside, Lakeside-Suburban Area]
+< [Downtown-Riverside, Downtown-Central Park, Central Park-City Hall, Museum Street-City Hall, Museum Street-Lakeside, Lakeside-Suburban Area, Suburban Area-Residential Zone]
+< [Broadway-Museum Street, Museum Street-City Hall, Central Park-City Hall, Downtown-Central Park]
+< [Broadway-Museum Street, Museum Street-City Hall, Central Park-City Hall]
+< [Broadway-Museum Street, Museum Street-City Hall, Central Park-City Hall, Central Park-University Avenue]
+< [Broadway-Museum Street, Museum Street-City Hall, Central Park-City Hall, Downtown-Central Park, Downtown-Riverside]
+---
+> [Downtown-Riverside, Downtown-Broadway, Broadway-Park Street]
+> [University Avenue-Riverside, Central Park-University Avenue, Central Park-City Hall, Museum Street-City Hall, Museum Street-Lakeside]
+> [University Avenue-Riverside, Central Park-University Avenue, Central Park-City Hall, City Hall-Airport Road]
+> [Riverside-North Avenue, North Avenue-Business District]
+> [Riverside-North Avenue, North Avenue-Business District, Business District-Highway Junction]
+> [Downtown-Riverside, Downtown-Broadway, Broadway-Park Street, Park Street-Industrial Zone]
+> [University Avenue-Riverside, Central Park-University Avenue, Central Park-City Hall, Museum Street-City Hall, Museum Street-Lakeside, Lakeside-Suburban Area]
+> [University Avenue-Riverside, Central Park-University Avenue, Central Park-City Hall, Museum Street-City Hall, Museum Street-Lakeside, Lakeside-Suburban Area, Suburban Area-Residential Zone]
+> [Downtown-Broadway]
+> [Downtown-Broadway, Downtown-Central Park]
+> [Downtown-Broadway, Downtown-Central Park, Central Park-University Avenue]
+> [Downtown-Broadway, Downtown-Riverside]
+71,73c71,73
+< [Broadway-Museum Street, Museum Street-City Hall, Central Park-City Hall, Central Park-University Avenue, University Avenue-Central Station]
+< [Broadway-Museum Street, Museum Street-City Hall, Central Park-City Hall, Downtown-Central Park, Downtown-Riverside, Riverside-North Avenue]
+< [Broadway-Museum Street, Museum Street-Lakeside, Park Street-Lakeside]
+---
+> [Downtown-Broadway, Downtown-Central Park, Central Park-University Avenue, University Avenue-Central Station]
+> [Downtown-Broadway, Downtown-Riverside, Riverside-North Avenue]
+> [Broadway-Park Street]
+76,78c76,78
+< [Broadway-Museum Street, Museum Street-City Hall, Central Park-City Hall, Central Park-University Avenue, University Avenue-Central Station, Central Station-Business District]
+< [Broadway-Museum Street, Museum Street-City Hall, Central Park-City Hall, Central Park-University Avenue, University Avenue-Central Station, Central Station-Business District, Business District-Highway Junction]
+< [Broadway-Museum Street, Museum Street-Lakeside, Park Street-Lakeside, Park Street-Industrial Zone]
+---
+> [Downtown-Broadway, Downtown-Central Park, Central Park-University Avenue, University Avenue-Central Station, Central Station-Business District]
+> [Downtown-Broadway, Downtown-Central Park, Central Park-University Avenue, University Avenue-Central Station, Central Station-Business District, Business District-Highway Junction]
+> [Broadway-Park Street, Park Street-Industrial Zone]
+81c81
+< [Museum Street-City Hall, Central Park-City Hall, Downtown-Central Park]
+---
+> [Broadway-Museum Street, Downtown-Broadway]
+84c84
+< [Museum Street-City Hall, Central Park-City Hall, Downtown-Central Park, Downtown-Riverside]
+---
+> [Museum Street-City Hall, Central Park-City Hall, Central Park-University Avenue, University Avenue-Riverside]
+88,89c88,89
+< [Museum Street-City Hall, Central Park-City Hall, Downtown-Central Park, Downtown-Riverside, Riverside-North Avenue]
+< [Museum Street-Lakeside, Park Street-Lakeside]
+---
+> [Museum Street-City Hall, Central Park-City Hall, Central Park-University Avenue, University Avenue-Riverside, Riverside-North Avenue]
+> [Broadway-Museum Street, Broadway-Park Street]
+94c94
+< [Museum Street-Lakeside, Park Street-Lakeside, Park Street-Industrial Zone]
+---
+> [Broadway-Museum Street, Broadway-Park Street, Park Street-Industrial Zone]
+100c100
+< [Central Park-City Hall, Downtown-Central Park, Downtown-Riverside]
+---
+> [Central Park-City Hall, Central Park-University Avenue, University Avenue-Riverside]
+104,105c104,105
+< [Central Park-City Hall, Downtown-Central Park, Downtown-Riverside, Riverside-North Avenue]
+< [Museum Street-City Hall, Museum Street-Lakeside, Park Street-Lakeside]
+---
+> [Central Park-City Hall, Central Park-University Avenue, University Avenue-Riverside, Riverside-North Avenue]
+> [Museum Street-City Hall, Broadway-Museum Street, Broadway-Park Street]
+110c110
+< [Museum Street-City Hall, Museum Street-Lakeside, Park Street-Lakeside, Park Street-Industrial Zone]
+---
+> [Museum Street-City Hall, Broadway-Museum Street, Broadway-Park Street, Park Street-Industrial Zone]
+117c117
+< [University Avenue-Central Station, Central Park-University Avenue, Central Park-City Hall, Museum Street-City Hall, Broadway-Museum Street]
+---
+> [University Avenue-Central Station, Central Park-University Avenue, Downtown-Central Park, Downtown-Broadway]
+120,121c120,121
+< [University Avenue-Central Station, University Avenue-Riverside, Riverside-North Avenue]
+< [University Avenue-Central Station, Central Park-University Avenue, Central Park-City Hall, Museum Street-City Hall, Museum Street-Lakeside, Park Street-Lakeside]
+---
+> [Central Station-Business District, North Avenue-Business District]
+> [University Avenue-Central Station, Central Park-University Avenue, Downtown-Central Park, Downtown-Broadway, Broadway-Park Street]
+126c126
+< [University Avenue-Central Station, Central Park-University Avenue, Central Park-City Hall, Museum Street-City Hall, Museum Street-Lakeside, Park Street-Lakeside, Park Street-Industrial Zone]
+---
+> [University Avenue-Central Station, Central Park-University Avenue, Downtown-Central Park, Downtown-Broadway, Broadway-Park Street, Park Street-Industrial Zone]
+130c130
+< [Riverside-North Avenue, Downtown-Riverside, Downtown-Central Park]
+---
+> [Riverside-North Avenue, University Avenue-Riverside, Central Park-University Avenue]
+133,139c133,139
+< [Riverside-North Avenue, Downtown-Riverside, Downtown-Central Park, Central Park-City Hall, Museum Street-City Hall, Broadway-Museum Street]
+< [Riverside-North Avenue, Downtown-Riverside, Downtown-Central Park, Central Park-City Hall, Museum Street-City Hall]
+< [Riverside-North Avenue, Downtown-Riverside, Downtown-Central Park, Central Park-City Hall]
+< [Riverside-North Avenue, University Avenue-Riverside, University Avenue-Central Station]
+< [Riverside-North Avenue, Downtown-Riverside, Downtown-Central Park, Central Park-City Hall, Museum Street-City Hall, Museum Street-Lakeside, Park Street-Lakeside]
+< [Riverside-North Avenue, Downtown-Riverside, Downtown-Central Park, Central Park-City Hall, Museum Street-City Hall, Museum Street-Lakeside]
+< [Riverside-North Avenue, Downtown-Riverside, Downtown-Central Park, Central Park-City Hall, City Hall-Airport Road]
+---
+> [Riverside-North Avenue, Downtown-Riverside, Downtown-Broadway]
+> [Riverside-North Avenue, University Avenue-Riverside, Central Park-University Avenue, Central Park-City Hall, Museum Street-City Hall]
+> [Riverside-North Avenue, University Avenue-Riverside, Central Park-University Avenue, Central Park-City Hall]
+> [North Avenue-Business District, Central Station-Business District]
+> [Riverside-North Avenue, Downtown-Riverside, Downtown-Broadway, Broadway-Park Street]
+> [Riverside-North Avenue, University Avenue-Riverside, Central Park-University Avenue, Central Park-City Hall, Museum Street-City Hall, Museum Street-Lakeside]
+> [Riverside-North Avenue, University Avenue-Riverside, Central Park-University Avenue, Central Park-City Hall, City Hall-Airport Road]
+142,153c142,153
+< [Riverside-North Avenue, Downtown-Riverside, Downtown-Central Park, Central Park-City Hall, Museum Street-City Hall, Museum Street-Lakeside, Park Street-Lakeside, Park Street-Industrial Zone]
+< [Riverside-North Avenue, Downtown-Riverside, Downtown-Central Park, Central Park-City Hall, Museum Street-City Hall, Museum Street-Lakeside, Lakeside-Suburban Area]
+< [Riverside-North Avenue, Downtown-Riverside, Downtown-Central Park, Central Park-City Hall, Museum Street-City Hall, Museum Street-Lakeside, Lakeside-Suburban Area, Suburban Area-Residential Zone]
+< [Park Street-Lakeside, Museum Street-Lakeside, Museum Street-City Hall, Central Park-City Hall, Downtown-Central Park]
+< [Park Street-Lakeside, Museum Street-Lakeside, Museum Street-City Hall, Central Park-City Hall]
+< [Park Street-Lakeside, Museum Street-Lakeside, Museum Street-City Hall, Central Park-City Hall, Central Park-University Avenue]
+< [Park Street-Lakeside, Museum Street-Lakeside, Museum Street-City Hall, Central Park-City Hall, Downtown-Central Park, Downtown-Riverside]
+< [Park Street-Lakeside, Museum Street-Lakeside, Broadway-Museum Street]
+< [Park Street-Lakeside, Museum Street-Lakeside]
+< [Park Street-Lakeside, Museum Street-Lakeside, Museum Street-City Hall]
+< [Park Street-Lakeside, Museum Street-Lakeside, Museum Street-City Hall, Central Park-City Hall, Central Park-University Avenue, University Avenue-Central Station]
+< [Park Street-Lakeside, Museum Street-Lakeside, Museum Street-City Hall, Central Park-City Hall, Downtown-Central Park, Downtown-Riverside, Riverside-North Avenue]
+---
+> [Riverside-North Avenue, Downtown-Riverside, Downtown-Broadway, Broadway-Park Street, Park Street-Industrial Zone]
+> [Riverside-North Avenue, University Avenue-Riverside, Central Park-University Avenue, Central Park-City Hall, Museum Street-City Hall, Museum Street-Lakeside, Lakeside-Suburban Area]
+> [Riverside-North Avenue, University Avenue-Riverside, Central Park-University Avenue, Central Park-City Hall, Museum Street-City Hall, Museum Street-Lakeside, Lakeside-Suburban Area, Suburban Area-Residential Zone]
+> [Broadway-Park Street, Downtown-Broadway]
+> [Broadway-Park Street, Downtown-Broadway, Downtown-Central Park]
+> [Broadway-Park Street, Downtown-Broadway, Downtown-Central Park, Central Park-University Avenue]
+> [Broadway-Park Street, Downtown-Broadway, Downtown-Riverside]
+> [Broadway-Park Street]
+> [Broadway-Park Street, Broadway-Museum Street]
+> [Broadway-Park Street, Broadway-Museum Street, Museum Street-City Hall]
+> [Broadway-Park Street, Downtown-Broadway, Downtown-Central Park, Central Park-University Avenue, University Avenue-Central Station]
+> [Broadway-Park Street, Downtown-Broadway, Downtown-Riverside, Riverside-North Avenue]
+155,157c155,157
+< [Park Street-Lakeside, Museum Street-Lakeside, Museum Street-City Hall, City Hall-Airport Road]
+< [Park Street-Lakeside, Museum Street-Lakeside, Museum Street-City Hall, Central Park-City Hall, Central Park-University Avenue, University Avenue-Central Station, Central Station-Business District]
+< [Park Street-Lakeside, Museum Street-Lakeside, Museum Street-City Hall, Central Park-City Hall, Central Park-University Avenue, University Avenue-Central Station, Central Station-Business District, Business District-Highway Junction]
+---
+> [Broadway-Park Street, Broadway-Museum Street, Museum Street-City Hall, City Hall-Airport Road]
+> [Broadway-Park Street, Downtown-Broadway, Downtown-Central Park, Central Park-University Avenue, University Avenue-Central Station, Central Station-Business District]
+> [Broadway-Park Street, Downtown-Broadway, Downtown-Central Park, Central Park-University Avenue, University Avenue-Central Station, Central Station-Business District, Business District-Highway Junction]
+161c161
+< [Museum Street-Lakeside, Museum Street-City Hall, Central Park-City Hall, Downtown-Central Park]
+---
+> [Museum Street-Lakeside, Broadway-Museum Street, Downtown-Broadway]
+164c164
+< [Museum Street-Lakeside, Museum Street-City Hall, Central Park-City Hall, Downtown-Central Park, Downtown-Riverside]
+---
+> [Museum Street-Lakeside, Museum Street-City Hall, Central Park-City Hall, Central Park-University Avenue, University Avenue-Riverside]
+169c169
+< [Museum Street-Lakeside, Museum Street-City Hall, Central Park-City Hall, Downtown-Central Park, Downtown-Riverside, Riverside-North Avenue]
+---
+> [Museum Street-Lakeside, Museum Street-City Hall, Central Park-City Hall, Central Park-University Avenue, University Avenue-Riverside, Riverside-North Avenue]
+180c180
+< [City Hall-Airport Road, Central Park-City Hall, Downtown-Central Park, Downtown-Riverside]
+---
+> [City Hall-Airport Road, Central Park-City Hall, Central Park-University Avenue, University Avenue-Riverside]
+185,186c185,186
+< [City Hall-Airport Road, Central Park-City Hall, Downtown-Central Park, Downtown-Riverside, Riverside-North Avenue]
+< [City Hall-Airport Road, Museum Street-City Hall, Museum Street-Lakeside, Park Street-Lakeside]
+---
+> [City Hall-Airport Road, Central Park-City Hall, Central Park-University Avenue, University Avenue-Riverside, Riverside-North Avenue]
+> [City Hall-Airport Road, Museum Street-City Hall, Broadway-Museum Street, Broadway-Park Street]
+190c190
+< [City Hall-Airport Road, Museum Street-City Hall, Museum Street-Lakeside, Park Street-Lakeside, Park Street-Industrial Zone]
+---
+> [City Hall-Airport Road, Museum Street-City Hall, Broadway-Museum Street, Broadway-Park Street, Park Street-Industrial Zone]
+196,197c196,197
+< [Central Station-Business District, University Avenue-Central Station, University Avenue-Riverside]
+< [Central Station-Business District, University Avenue-Central Station, Central Park-University Avenue, Central Park-City Hall, Museum Street-City Hall, Broadway-Museum Street]
+---
+> [North Avenue-Business District, Riverside-North Avenue]
+> [Central Station-Business District, University Avenue-Central Station, Central Park-University Avenue, Downtown-Central Park, Downtown-Broadway]
+202c202
+< [Central Station-Business District, University Avenue-Central Station, Central Park-University Avenue, Central Park-City Hall, Museum Street-City Hall, Museum Street-Lakeside, Park Street-Lakeside]
+---
+> [Central Station-Business District, University Avenue-Central Station, Central Park-University Avenue, Downtown-Central Park, Downtown-Broadway, Broadway-Park Street]
+206c206
+< [Central Station-Business District, University Avenue-Central Station, Central Park-University Avenue, Central Park-City Hall, Museum Street-City Hall, Museum Street-Lakeside, Park Street-Lakeside, Park Street-Industrial Zone]
+---
+> [Central Station-Business District, University Avenue-Central Station, Central Park-University Avenue, Downtown-Central Park, Downtown-Broadway, Broadway-Park Street, Park Street-Industrial Zone]
+212,213c212,213
+< [Business District-Highway Junction, Central Station-Business District, University Avenue-Central Station, University Avenue-Riverside]
+< [Business District-Highway Junction, Central Station-Business District, University Avenue-Central Station, Central Park-University Avenue, Central Park-City Hall, Museum Street-City Hall, Broadway-Museum Street]
+---
+> [Business District-Highway Junction, North Avenue-Business District, Riverside-North Avenue]
+> [Business District-Highway Junction, Central Station-Business District, University Avenue-Central Station, Central Park-University Avenue, Downtown-Central Park, Downtown-Broadway]
+218c218
+< [Business District-Highway Junction, Central Station-Business District, University Avenue-Central Station, Central Park-University Avenue, Central Park-City Hall, Museum Street-City Hall, Museum Street-Lakeside, Park Street-Lakeside]
+---
+> [Business District-Highway Junction, Central Station-Business District, University Avenue-Central Station, Central Park-University Avenue, Downtown-Central Park, Downtown-Broadway, Broadway-Park Street]
+222c222
+< [Business District-Highway Junction, Central Station-Business District, University Avenue-Central Station, Central Park-University Avenue, Central Park-City Hall, Museum Street-City Hall, Museum Street-Lakeside, Park Street-Lakeside, Park Street-Industrial Zone]
+---
+> [Business District-Highway Junction, Central Station-Business District, University Avenue-Central Station, Central Park-University Avenue, Downtown-Central Park, Downtown-Broadway, Broadway-Park Street, Park Street-Industrial Zone]
+225,233c225,233
+< [Park Street-Industrial Zone, Park Street-Lakeside, Museum Street-Lakeside, Museum Street-City Hall, Central Park-City Hall, Downtown-Central Park]
+< [Park Street-Industrial Zone, Park Street-Lakeside, Museum Street-Lakeside, Museum Street-City Hall, Central Park-City Hall]
+< [Park Street-Industrial Zone, Park Street-Lakeside, Museum Street-Lakeside, Museum Street-City Hall, Central Park-City Hall, Central Park-University Avenue]
+< [Park Street-Industrial Zone, Park Street-Lakeside, Museum Street-Lakeside, Museum Street-City Hall, Central Park-City Hall, Downtown-Central Park, Downtown-Riverside]
+< [Park Street-Industrial Zone, Park Street-Lakeside, Museum Street-Lakeside, Broadway-Museum Street]
+< [Park Street-Industrial Zone, Park Street-Lakeside, Museum Street-Lakeside]
+< [Park Street-Industrial Zone, Park Street-Lakeside, Museum Street-Lakeside, Museum Street-City Hall]
+< [Park Street-Industrial Zone, Park Street-Lakeside, Museum Street-Lakeside, Museum Street-City Hall, Central Park-City Hall, Central Park-University Avenue, University Avenue-Central Station]
+< [Park Street-Industrial Zone, Park Street-Lakeside, Museum Street-Lakeside, Museum Street-City Hall, Central Park-City Hall, Downtown-Central Park, Downtown-Riverside, Riverside-North Avenue]
+---
+> [Park Street-Industrial Zone, Broadway-Park Street, Downtown-Broadway]
+> [Park Street-Industrial Zone, Broadway-Park Street, Downtown-Broadway, Downtown-Central Park]
+> [Park Street-Industrial Zone, Broadway-Park Street, Downtown-Broadway, Downtown-Central Park, Central Park-University Avenue]
+> [Park Street-Industrial Zone, Broadway-Park Street, Downtown-Broadway, Downtown-Riverside]
+> [Park Street-Industrial Zone, Broadway-Park Street]
+> [Park Street-Industrial Zone, Broadway-Park Street, Broadway-Museum Street]
+> [Park Street-Industrial Zone, Broadway-Park Street, Broadway-Museum Street, Museum Street-City Hall]
+> [Park Street-Industrial Zone, Broadway-Park Street, Downtown-Broadway, Downtown-Central Park, Central Park-University Avenue, University Avenue-Central Station]
+> [Park Street-Industrial Zone, Broadway-Park Street, Downtown-Broadway, Downtown-Riverside, Riverside-North Avenue]
+236,238c236,238
+< [Park Street-Industrial Zone, Park Street-Lakeside, Museum Street-Lakeside, Museum Street-City Hall, City Hall-Airport Road]
+< [Park Street-Industrial Zone, Park Street-Lakeside, Museum Street-Lakeside, Museum Street-City Hall, Central Park-City Hall, Central Park-University Avenue, University Avenue-Central Station, Central Station-Business District]
+< [Park Street-Industrial Zone, Park Street-Lakeside, Museum Street-Lakeside, Museum Street-City Hall, Central Park-City Hall, Central Park-University Avenue, University Avenue-Central Station, Central Station-Business District, Business District-Highway Junction]
+---
+> [Park Street-Industrial Zone, Broadway-Park Street, Broadway-Museum Street, Museum Street-City Hall, City Hall-Airport Road]
+> [Park Street-Industrial Zone, Broadway-Park Street, Downtown-Broadway, Downtown-Central Park, Central Park-University Avenue, University Avenue-Central Station, Central Station-Business District]
+> [Park Street-Industrial Zone, Broadway-Park Street, Downtown-Broadway, Downtown-Central Park, Central Park-University Avenue, University Avenue-Central Station, Central Station-Business District, Business District-Highway Junction]
+241c241
+< [Lakeside-Suburban Area, Museum Street-Lakeside, Museum Street-City Hall, Central Park-City Hall, Downtown-Central Park]
+---
+> [Lakeside-Suburban Area, Museum Street-Lakeside, Broadway-Museum Street, Downtown-Broadway]
+244c244
+< [Lakeside-Suburban Area, Museum Street-Lakeside, Museum Street-City Hall, Central Park-City Hall, Downtown-Central Park, Downtown-Riverside]
+---
+> [Lakeside-Suburban Area, Museum Street-Lakeside, Museum Street-City Hall, Central Park-City Hall, Central Park-University Avenue, University Avenue-Riverside]
+249c249
+< [Lakeside-Suburban Area, Museum Street-Lakeside, Museum Street-City Hall, Central Park-City Hall, Downtown-Central Park, Downtown-Riverside, Riverside-North Avenue]
+---
+> [Lakeside-Suburban Area, Museum Street-Lakeside, Museum Street-City Hall, Central Park-City Hall, Central Park-University Avenue, University Avenue-Riverside, Riverside-North Avenue]
+257c257
+< [Suburban Area-Residential Zone, Lakeside-Suburban Area, Museum Street-Lakeside, Museum Street-City Hall, Central Park-City Hall, Downtown-Central Park]
+---
+> [Suburban Area-Residential Zone, Lakeside-Suburban Area, Museum Street-Lakeside, Broadway-Museum Street, Downtown-Broadway]
+260c260
+< [Suburban Area-Residential Zone, Lakeside-Suburban Area, Museum Street-Lakeside, Museum Street-City Hall, Central Park-City Hall, Downtown-Central Park, Downtown-Riverside]
+---
+> [Suburban Area-Residential Zone, Lakeside-Suburban Area, Museum Street-Lakeside, Museum Street-City Hall, Central Park-City Hall, Central Park-University Avenue, University Avenue-Riverside]
+265c265
+< [Suburban Area-Residential Zone, Lakeside-Suburban Area, Museum Street-Lakeside, Museum Street-City Hall, Central Park-City Hall, Downtown-Central Park, Downtown-Riverside, Riverside-North Avenue]
+---
+> [Suburban Area-Residential Zone, Lakeside-Suburban Area, Museum Street-Lakeside, Museum Street-City Hall, Central Park-City Hall, Central Park-University Avenue, University Avenue-Riverside, Riverside-North Avenue]
