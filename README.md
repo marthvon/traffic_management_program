@@ -10,16 +10,16 @@ A Test Harness can be used to test the data in the "traffic_data.txt" and "traff
 
 Test Harness Manual<br>
 Options:<br>
-        **-q**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quiet. Doesn't display stdout to console but only stderr from assertions<br>
-        **-d**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Display Road Intersection Information in Detail, otherwise print minimally<br>
-        **-l**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Print out the Traffic Network Adjacency List<br>
-        **-p**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Print sorted Traffic Data Intersections from Highest to Lowest Traffic Volume<br>
-        **-s**\<... optional\>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Print the Best Path between Source and Destination<br>
-        default&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Best Path is based on the intersection Overall Weight<br>
-                **t**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Best Path is based on the intersection Traffic Factor<br>
-                **m**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Best Path is based on the intersection Distance in Miles<br>
-                **v**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Best Path is based on the intersection Traffic Volume<br>
-        **-a**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When '-s' is flagged, it also prints other non optimal paths<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**-q**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quiet. Doesn't display stdout to console but only stderr from assertions<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**-d**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Display Road Intersection Information in Detail, otherwise print minimally<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**-l**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Print out the Traffic Network Adjacency List<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**-p**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Print sorted Traffic Data Intersections from Highest to Lowest Traffic Volume<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**-s**\<... optional\>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Print the Best Path between Source and Destination<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;default&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Best Path is based on the intersection Overall Weight<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**t**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Best Path is based on the intersection Traffic Factor<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**m**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Best Path is based on the intersection Distance in Miles<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**v**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Best Path is based on the intersection Traffic Volume<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**-a**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When '-s' is flagged, it also prints other non optimal paths<br>
 
 Also, "bash sweep.sh" can be ran to sweep the Test Harness to output text files of the network adjacency list, the shortest path of every path to every other path, and the best path to take based on the traffic_data, additionally it outputs the priority queue based on the intersection with the most traffic volume. All the output is stored in the "./docs/" directory
 
@@ -37,13 +37,13 @@ Command => "java TrafficMenu.java"
 
 Running 'bash sweep.sh' produces the following files:
 
-**adjacency_list.txt**                      - Prints the adjacency list of the network<br>
-**adjacency_list_in_detail.txt**            - Prints the adjacency list of the network along with the intersection traffic data<br>
-**best_path.txt**                           - Prints the best path base on the equation (distance*congestion_lvl*traffic_vol/road_cap)<br>
-**best_path_in_detail.txt**                 - Prints the best path base on the equation (distance*congestion_lvl*traffic_vol/road_cap) with the traffic data information<br>
-**high_traffic_volume_priority_list.txt**   - Prints the list of intersections prioritising high traffic volume<br>
-**shortest_path.txt**                       - Print the shortest path base on miles<br>
-**shortest_path_in_detail.txt**             - Print the shortest path base on miles with traffic data information<br>
+**adjacency_list.txt**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Prints the adjacency list of the network<br>
+**adjacency_list_in_detail.txt**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Prints the adjacency list of the network along with the intersection traffic data<br>
+**best_path.txt**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Prints the best path base on the equation (distance*congestion_lvl*traffic_vol/road_cap)<br>
+**best_path_in_detail.txt**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Prints the best path base on the equation (distance*congestion_lvl*traffic_vol/road_cap) with the traffic data information<br>
+**high_traffic_volume_priority_list.txt**&nbsp;&nbsp;&nbsp;- Prints the list of intersections prioritising high traffic volume<br>
+**shortest_path.txt**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Print the shortest path base on miles<br>
+**shortest_path_in_detail.txt**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Print the shortest path base on miles with traffic data information<br>
 
 Within, the docs folder executing 'bash find_diff.sh' creates a 'path_difference.txt' listing the paths with different optimized/best path
 from the path generated from the shortest path
