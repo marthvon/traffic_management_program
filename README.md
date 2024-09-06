@@ -10,16 +10,16 @@ A Test Harness can be used to test the data in the "traffic_data.txt" and "traff
 
 Test Harness Manual<br>
 Options:<br>
-        **-q**      Quiet. Doesn't display stdout to console but only stderr from assertions<br>
-        **-d**      Display Road Intersection Information in Detail, otherwise print minimally<br>
-        **-l**      Print out the Traffic Network Adjacency List<br>
-        **-p**      Print sorted Traffic Data Intersections from Highest to Lowest Traffic Volume<br>
-        **-s**\<... optional\>        Print the Best Path between Source and Destination<br>
-        default         Best Path is based on the intersection Overall Weight<br>
-                **t**       Best Path is based on the intersection Traffic Factor<br>
-                **m**       Best Path is based on the intersection Distance in Miles<br>
-                **v**       Best Path is based on the intersection Traffic Volume<br>
-        **-a**      When '-s' is flagged, it also prints other non optimal paths<br>
+        **-q**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quiet. Doesn't display stdout to console but only stderr from assertions<br>
+        **-d**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Display Road Intersection Information in Detail, otherwise print minimally<br>
+        **-l**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Print out the Traffic Network Adjacency List<br>
+        **-p**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Print sorted Traffic Data Intersections from Highest to Lowest Traffic Volume<br>
+        **-s**\<... optional\>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Print the Best Path between Source and Destination<br>
+        default&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Best Path is based on the intersection Overall Weight<br>
+                **t**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Best Path is based on the intersection Traffic Factor<br>
+                **m**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Best Path is based on the intersection Distance in Miles<br>
+                **v**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Best Path is based on the intersection Traffic Volume<br>
+        **-a**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When '-s' is flagged, it also prints other non optimal paths<br>
 
 Also, "bash sweep.sh" can be ran to sweep the Test Harness to output text files of the network adjacency list, the shortest path of every path to every other path, and the best path to take based on the traffic_data, additionally it outputs the priority queue based on the intersection with the most traffic volume. All the output is stored in the "./docs/" directory
 
